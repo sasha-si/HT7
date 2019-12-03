@@ -1,0 +1,41 @@
+/* a {
+	color: green;
+} */
+
+div {
+	position: relative;
+	left: 10px;
+	top: 10px;
+}
+
+div > div > div {
+	width: 100px;
+	height: 100px;
+	background-color: #ccc;
+	display: inline-block;
+	border: black solid 1px;
+}
+
+ span {
+	position: relative;
+	cursor: pointer;
+}
+
+#leftArrow {
+	top: -155px;
+}
+
+#rightArrow {
+	top: -155px;
+	left: 320px;
+}
+
+#upArrow {
+	bottom: 325px;
+	left: 130px;
+}
+
+#downArrow {
+	top: 20px;
+	left: 120px;
+}
