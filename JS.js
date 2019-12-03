@@ -1,21 +1,5 @@
 "use strict";
 
-/* function aclean(arr) {
-    let arrSort = [];
-
-    for (let i = 0; i < arr.length; i++) {//let key of arr
-        arrSort.push( arr[i].toLowerCase().split('').sort().join(''));        
-    }
-    console.log(arr.length);
-    console.log(arr);
-    console.log(arrSort.length);
-    console.log(arrSort);
-}
-
-let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
-
-alert( aclean(arr) ); // "nap,teachers,ear" or "PAN,cheaters,era" */
-
 let blocks = document.getElementsByClassName("block");
 blocks[0].style.backgroundColor = "black";
 
